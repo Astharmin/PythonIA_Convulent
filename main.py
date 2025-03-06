@@ -76,8 +76,3 @@ async def predict(file: UploadFile = File(...)) -> JSONResponse:
 @app.get('/')
 async def root():
     return {'Mensaje': 'Hola Mundo'}
-
-'''que bolas me dijo que soy una tabla :VV
-probemos con otra imagen >:V
-ahora kike oveja...me dejo mal esta mondah!! >:VVVV
-1 de tres XD'''
