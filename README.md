@@ -1,3 +1,5 @@
+
+
 # 🚀 PythonIA_Convulent - API de Detección de Objetos con COCO
 
 ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=flat&logo=fastapi)
@@ -107,7 +109,7 @@ source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 
 # 4. Ejecutar aplicación
-uvicorn app:app --reload --host 0.0.0.0 --port 8000
+uvicorn main:app --reload --host 0.0.0.0 --port 8000
 ```
 
 ---
